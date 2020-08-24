@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/top"
+    >
+
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="422dp"
+        android:layout_height="491dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-180dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-312dp"
+        android:background="@drawable/ellipse_3"
+        android:elevation="4dp"
+        android:rotation="45"
+        />
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="422dp"
+        android:layout_height="491dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-218dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:elevation="4dp"
+        android:rotation="45"
+        android:background="@drawable/ellipse_1"
+      />
+
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="422dp"
+        android:layout_height="491dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-273dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-350dp"
+        android:background="@drawable/ellipse_2"
+        android:elevation="4dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/secondactivity"
+        android:layout_width="235dp"
+        android:layout_height="213dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:elevation="4dp"
+        app:srcCompat="@drawable/logo" />
+
+
+</RelativeLayout>
